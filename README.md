@@ -59,7 +59,7 @@ While the 800-series (like 800-53) provides the "what" (controls), the 1800-seri
 1. **Data Integrity & Lifecycle (NIST SP 1800-11 & 1800-25/26)**
     > These volumes focus on protecting against data corruption and unauthorized modification.
     >
-    > **The Fit:** A "janitor" Lambda is often used for automated remediation (e.g., deleting unencrypted objects or moving public objects to private buckets).
+    > **The Fit:** A "janitor" Lambda is used for automated remediation (e.g., deleting unencrypted objects or moving public objects to private buckets).
     >
     > **NIST Alignment:** Maps to the Protect & Respond functions of the NIST Cybersecurity Framework (CSF). Specifically, SP 1800-11 (Data Integrity).
 
